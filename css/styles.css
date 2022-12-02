@@ -39,6 +39,12 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+}
 /* Логотип */
 .header__logo {
   display: block;
@@ -67,13 +73,13 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header__div {
+.header__wrapper {
   display: flex;
   align-items: center;
   padding-top: 22px;
   padding-bottom: 22px;
 }
-.main-nav {
+.header__main-nav {
   display: flex;
 }
 .site-nav {
@@ -444,12 +450,7 @@ body {
   color: var(--main-background-color);
   background: rgba(47, 48, 58, 0.8);
 }
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0px;
-}
+
 /* Наша команда */
 .team {
   background: #f5f4fa;
