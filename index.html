@@ -493,8 +493,8 @@
           <div class="modal__input-line">
             <label for="name" class="modal__label">Ім'я</label>
             <div class="input-wrapper">
-              <input type="text" class="modal-input" name="name" id="name" />
-              <svg class="input-icon" width="18" height="18">
+              <input type="text" class="modal__input" name="name" id="name" />
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/icons.svg#person-black"></use>
               </svg>
             </div>
@@ -502,8 +502,8 @@
           <div class="modal__input-line">
             <label for="tel" class="modal__label">Телефон</label>
             <div class="input-wrapper">
-              <input type="text" class="modal-input" name="tel" id="tel" />
-              <svg class="input-icon" width="18" height="18">
+              <input type="text" class="modal__input" name="tel" id="tel" />
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/icons.svg#phone-black"></use>
               </svg>
             </div>
@@ -513,41 +513,41 @@
             <div class="input-wrapper check-wrapper">
               <input
                 type="text"
-                class="modal-input"
+                class="modal__input"
                 name="mail"
                 id="modal-mail"
               />
-              <svg class="input-icon" width="18" height="18">
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/icons.svg#modal-konvert"></use>
               </svg>
             </div>
           </div>
           <label for="modal-area" class="modal__label">Коментар</label>
           <textarea
-            class="modal-textarea"
+            class="modal__textarea"
             name="modal-text"
             id="modal-area"
             placeholder="Введіть текст"
           ></textarea>
-          <div class="checkbox-wrapper">
+          <div class="checkbox__wrapper">
             <input
               type="checkbox"
-              class="modal-checkbox"
+              class="checkbox__input visually-hidden"
               name="agree"
               value="agree"
               id="checkbox-agree"
             />
-            <label for="checkbox-agree" class="modal-check">
-              <span class="icon-wrapper">
-                <svg class="checkbox-icon" width="16" height="15">
+            <label for="checkbox-agree" class="checkbox__label">
+              <span class="checkbox__icon-wrapper">
+                <svg class="checkbox__icon" width="16" height="15">
                   <use href="./images/icons.svg#vector"></use>
                 </svg>
               </span>
               Погоджуюсь з розсилкою та приймаю
-              <a href="#" class="modal-link">Умови договору</a></label
+              <a href="#" class="checkbox__link">Умови договору</a></label
             >
           </div>
-          <button type="submit" class="modal-button">Відправити</button>
+          <button type="submit" class="modal__button">Відправити</button>
         </form>
       </div>
     </div>
