@@ -574,8 +574,7 @@ img {
 }
 .client__link:hover .client__icon,
 .client__link:focus .client__icon {
-  /* border-color: var(--accent-color); */
-  fill: var(--accent-color);
+ fill: var(--accent-color);
 }
 .client__link:hover,
 .client__link:focus {
