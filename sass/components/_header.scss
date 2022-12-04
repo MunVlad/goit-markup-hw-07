@@ -1,12 +1,17 @@
 .header {
   border-bottom: 1px solid #ececec;
+<<<<<<< HEAD
 }
 .header__wrapper {
+=======
+&__wrapper {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: flex;
   align-items: center;
   padding-top: 22px;
   padding-bottom: 22px;
 }
+<<<<<<< HEAD
 .header__main-nav {
   display: flex;
 }
@@ -15,6 +20,16 @@
   margin-left: 93px;
 }
 .site-nav__link {
+=======
+&__main-nav {
+  display: flex;
+}
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+&__link {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -23,6 +38,7 @@
   color: var(--main-textcolor);
   padding: 10px;
   position: relative;
+<<<<<<< HEAD
 }
 .site-nav__item:not(:first-child){
   margin-left: 50px;
@@ -31,6 +47,16 @@
   color: #2196f3;
 }
  .site-nav__link--active::after {
+=======
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+}
+  &--active {
+  color: #2196f3;
+}
+ &--active::after {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   content: "";
   background: var(--accent-color);
   width: calc(100% - 20px);
@@ -41,6 +67,7 @@
   left: 10px;
   border-radius: 2px;
 }
+<<<<<<< HEAD
 .contact-list {
   display: flex;
   margin-left: auto;
@@ -49,6 +76,21 @@
   margin-left: 50px;
 }
 .contact-list__link {
+=======
+}
+&__item:not(:first-child){
+  margin-left: 50px;
+}
+}
+ 
+.contact-list {
+  display: flex;
+  margin-left: auto;
+&__item:not(:first-child){
+  margin-left: 50px;
+}
+&__link {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: inline-flex;
   align-items: center;
   padding: 10px;
@@ -57,6 +99,7 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--second-textcolor);
+<<<<<<< HEAD
 }
 .contact-list__icon {
   fill: currentColor; /* наследует цвет от родительской ссылки contact*/
@@ -69,4 +112,15 @@
 .contact-list__link:hover,
 .contact-list__link:focus {
   color: var(--accent-color);
+=======
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+}
+}
+&__icon {
+  fill: currentColor; /* наследует цвет от родительской ссылки contact*/
+  margin-right: 10px;
+}
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
 }

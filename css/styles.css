@@ -709,9 +709,6 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 500ms, visibility 500ms;
 }
-/* .modal {
-  transform: scale(0);
-} */
 .modal {
   transform: scale(0);
   position: absolute;
@@ -767,10 +764,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-textcolor);
 }
-/* .input-line{
-display: flex;
-flex-direction: column;
-} */
 .modal__input {
   margin: 0;
   display: inline-block;
@@ -809,7 +802,6 @@ flex-direction: column;
 .modal__label {
   display: block;
   padding: 0;
-  /* margin-bottom: 4px; */
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -868,47 +860,16 @@ flex-direction: column;
   margin: 0;
   margin-right: 8px;
 }
-/* Скрити чекбокс */
-/* .checkbox__input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
 .checkbox__label {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  /* display: inline-block; */
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--second-textcolor);
 }
-/* Виконання checkbox через background-image */
-/* .checkbox__label::before {
-  content: " ";
-  display: flex;
-  margin-right: 8px;
-  width: 16px;
-  height: 15px;
-  border: 2px solid #000000;
-  border-radius: 2px;
-}
-.checkbox__wrapper input:checked + .checkbox__label::before{
-  background-color: var(--accent-color);
-  border: none;
-  background-image: url(../images/vector.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 .checkbox__icon-wrapper {
   margin-right: 8px;
   width: 16px;
@@ -942,7 +903,6 @@ flex-direction: column;
   width: 100%;
   height: 1px;
   position: absolute;
-  /* top: auto;  */
   bottom: 5px;
   left: 0;
 }

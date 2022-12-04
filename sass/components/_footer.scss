@@ -2,6 +2,7 @@
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+<<<<<<< HEAD
 }
 
 .footer__wrapper {
@@ -10,16 +11,30 @@
 }
 
 .footer__medialist {
+=======
+&__wrapper {
+  display: flex;
+  align-items: baseline;
+}
+&__medialist {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: flex;
   padding: 0px;
   margin: 0px;
 }
+<<<<<<< HEAD
 
 .footer__social-link {
   margin-left: 70px;
 }
 
 .footer__social-title {
+=======
+&__social-link {
+  margin-left: 70px;
+}
+&__social-title {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: "Roboto";
@@ -31,8 +46,12 @@
   text-transform: uppercase;
   color: var(--main-background-color);
 }
+<<<<<<< HEAD
 
 .footer__link-icon {
+=======
+&__link-icon {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +60,7 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
 }
 
 .footer__social-item:not(:last-child) {
@@ -57,6 +77,21 @@
 }
 
 .footer__address-link {
+=======
+  &:hover,
+  &:focus {
+  background-color: var(--accent-color);
+}
+}
+&__social-item:not(:last-child) {
+  margin-right: 10px;
+}
+&__icon {
+  fill: var(--main-background-color);
+}
+
+&__address-link {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
@@ -65,6 +100,7 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
 }
 
 .footer__address-link:hover,
@@ -77,6 +113,18 @@
 }
 
 .footer__contact {
+=======
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+}
+}
+
+&__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+&__contact {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
@@ -85,6 +133,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
 }
 
 .footer__contact:hover,
@@ -93,6 +142,15 @@
 }
 
 .footer__phone {
+=======
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+}
+}
+
+&__phone {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -100,6 +158,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
 }
 
 .footer__phone:hover,
@@ -108,21 +167,38 @@
 }
 
 .footer__form {
+=======
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+}
+}
+
+&__form {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: flex;
   margin-left: 93px;
   position: relative;
   width: 570px;
   height: 86px;
 }
+<<<<<<< HEAD
 
 .footer__field {
+=======
+&__field {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   display: flex;
   flex-direction: column;
   margin-right: 12px;
   width: 358px;
 }
+<<<<<<< HEAD
 
 .footer__label {
+=======
+&__label {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -130,8 +206,12 @@
   text-transform: uppercase;
   color: var(--main-background-color);
 }
+<<<<<<< HEAD
 
 .footer__input {
+=======
+&__input {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   position: absolute;
   top: 36px;
   width: 358px;
@@ -144,6 +224,7 @@
   color: var(--main-background-color);
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
 }
 
 .footer__input:focus {
@@ -151,6 +232,12 @@
 }
 
 .footer__input::placeholder {
+=======
+  &:focus{
+  border-color: var(--accent-color);
+}
+&::placeholder {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   font-weight: 400;
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -159,8 +246,13 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+<<<<<<< HEAD
 
 .footer__button {
+=======
+}
+&__button {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   position: absolute;
   top: 36px;
   right: 0;
@@ -181,11 +273,19 @@
   letter-spacing: 0.06em;
   color: var(--main-background-color);
 }
+<<<<<<< HEAD
 
 .footer__button-icon {
+=======
+&__button-icon {
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
   position: absolute;
   right: 28px;
   fill: var(--main-background-color);
   top: 50%;
   transform: translateY(-50%);
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 7aefca2ab48e103c684532749d2c1cd549408d8a
 }
