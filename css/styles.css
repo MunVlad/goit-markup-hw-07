@@ -467,7 +467,7 @@ img {
 .team__list {
   display: flex;
 }
-.team-name {
+.team__name {
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -503,19 +503,19 @@ img {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.social__icons {
+.social-icons {
   display: flex;
   justify-content: center;
 }
-.social__item {
+.social-icons__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
-.social__item:last-child {
+.social-icons__item:last-child {
   margin-right: 0px;
 }
-.social__link {
+.social-icons__link {
   background-color: var(--main-background-color);
   border-radius: 50%;
   width: 100%;
@@ -527,11 +527,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social__icon {
+.social-icons__icon {
   fill: currentColor; /*иконка наследует цвет от родительского элемента social-link */
 }
-.social__link:hover,
-.social__link:focus {
+.social-icons__link:hover,
+.social-icons__link:focus {
   background-color: var(--accent-color);
   color: var(
     --main-background-color
@@ -852,7 +852,7 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.checkbox__wrapper {
+.checkbox {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
@@ -884,12 +884,12 @@ img {
 .checkbox__label .checkbox__icon {
   fill: transparent;
 }
-.checkbox__wrapper input:checked + .checkbox__label .checkbox__icon-wrapper {
+.checkbox input:checked + .checkbox__label .checkbox__icon-wrapper {
   background-color: var(--accent-color);
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox__wrapper input:checked + .checkbox__label .checkbox__icon {
+.checkbox input:checked + .checkbox__label .checkbox__icon {
   fill: var(--main-background-color);
 }
 .checkbox__link {
