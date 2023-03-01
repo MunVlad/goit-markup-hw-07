@@ -165,7 +165,8 @@
 &__button-icon {
   position: absolute;
   right: 28px;
-  fill: var(--main-background-color);
+  // fill: var(--main-background-color);
+  fill: black;
   top: 50%;
   transform: translateY(-50%);
 }
